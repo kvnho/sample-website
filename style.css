@@ -1,0 +1,220 @@
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+body{
+  line-height:1.6;
+  font-size:20px;
+  font-family:'Quicksand', sans-serif;
+  overflow:hidden;
+}
+
+h2{
+  margin:100px 0;
+  color:rgb(212,130,124);
+  border-bottom:3px solid rgb(212,130,124);
+  width:100%; 
+  line-height:.2em;
+  border-radius:2px;
+}
+
+h2 .light{
+  background:#fff;
+  padding:0 30px;
+}
+
+h2 .dark{ 
+  background:#f9f9f9; 
+  padding:0 30px; 
+}
+
+.container{
+  padding-top:1px;
+  padding-left:20px;
+  padding-right:20px;
+}
+.break{
+  height:20px;
+}
+
+#skills-bg,
+#projects-bg{
+  background-color:#f9f9f9;
+}
+
+.btn-match{
+  background-color:rgb(212,130,124);
+  color:white;
+}
+.btn-match:hover{
+  background-color:rgb(242, 157, 150);
+  color:white;
+}
+
+.fullscreen{
+  background-image:url(/img/sun.jpg);
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  background-repeat:no-repeat;
+}
+
+
+#home h3,
+#home h4{
+  padding:7px;
+}
+#home div{
+  margin-bottom:150px;
+}
+#home a{
+  color:white;
+}
+
+.btn-circle{
+  height:150px;
+  width:150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  transition:transform .2s;
+}
+.btn-circle:hover{
+  text-decoration:none;
+  transform:scale(1.1);
+}
+#about img{
+  margin-bottom:50px;
+}
+#about h4{
+  margin-bottom:50px;
+}
+#about p{
+  margin-bottom:20px;
+}
+#about a{
+  margin-top:30px;
+  margin-bottom:100px;
+}
+#skills .row{
+  margin-bottom:50px;
+
+}
+#skills .description{
+  margin-bottom:50px;
+  padding-left:100px;
+  padding-right:100px;
+
+}
+
+#skills .description h4{
+  color:rgb(23,162,184);
+  padding-bottom:5px;
+  text-decoration:underline;
+}
+#language,
+#tools{
+  margin-bottom:50px;
+}
+
+#quote{
+  margin-bottom:0;
+}
+#author{
+  font-size:16px;
+}
+#character > div{
+  margin-bottom:50px;
+}
+#character p{
+  padding:10px 20px 10px 20px;
+}
+
+#experience h2{
+  margin-top:50px;
+}
+#experience > div{
+  margin-bottom:50px;
+}
+
+#experience h4{
+  color:rgb(23,162,184);
+  text-decoration:underline;
+}
+
+#projects img{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:50px;
+}
+
+#projects h4{
+  margin-bottom:10px;
+}
+
+#projects .row > div{
+  margin-bottom:60px;
+  padding:0 20px;
+}
+
+#contact .row{
+  margin-top:50px;
+}
+#contact #social a{
+  text-decoration:none;
+  color:black;
+  margin:20px;
+}
+#contact #social a:hover{
+  color:rgb(212,130,124);
+}
+
+#contact h4{
+  color:rgb(23,162,184);
+  padding-bottom:20px;
+  text-decoration:underline;
+}
+#contact button{
+  margin-bottom:50px;
+}
+
+.jumbotron{
+  margin:0;
+  padding-bottom:10px;
+  border-radius:0;
+  background-image:url(/img/sun.jpg);
+  color:white;
+}
+.jumbotron h3{
+  text-decoration:underline;
+  margin-bottom:10px;
+}
+.jumbotron h4{
+  margin-bottom:10px;
+}
+.jumbotron > div{
+  margin-bottom:50px;
+}
+.jumbotron a{
+  text-decoration:none;
+  color:white;
+}
+.jumbotron a:hover{
+  color:rgb(212,130,124);
+}
+
+.jumbotron #footer{
+  padding-top:100px;
+}
+
+.job-title{
+  color:rgb(169, 187, 122);
+}
+
+
